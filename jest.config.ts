@@ -202,5 +202,9 @@ export default {
   moduleNameMapper: {
     "\.(css|less|sass|scss)$": "identity-obj-proxy" // 有使用 sass 需求的同学可以把正则换成 ^\.(css|less|sass|scss)$
   },
-  setupFilesAfterEnv: ["<rootDir>/jest-dom-setup.js"],
+  setupFilesAfterEnv: [
+    "<rootDir>/jest-dom-setup.js",
+    "<rootDir>/node_modules/jest-enzyme/lib/index.js"
+  ],
+  setupFiles: ["<rootDir>/enzyme_setup.ts"],
 };
