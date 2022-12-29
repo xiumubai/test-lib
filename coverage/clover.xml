@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1672278593267" clover="3.2.0">
-  <project timestamp="1672278593267" name="All files">
-    <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1" elements="7" coveredelements="4" complexity="0" loc="4" ncloc="4" packages="2" files="2" classes="2"/>
-    <package name="src">
-      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-      <file name="App.tsx" path="/Users/guojianli/Documents/xiumubai/tes-lib/src/App.tsx">
-        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.assets">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="react.svg" path="/Users/guojianli/Documents/xiumubai/tes-lib/src/assets/react.svg">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1672303744736" clover="3.2.0">
+  <project timestamp="1672303744737" name="All files">
+    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+    <file name="index.tsx" path="/Users/guojianli/Documents/xiumubai/tes-lib/src/components/DomEvent/index.tsx">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>
