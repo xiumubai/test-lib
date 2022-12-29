@@ -192,4 +192,15 @@ export default {
 
   // Whether to use watchman for file crawling
   // watchman: true,
+
+  transform: {
+    // ...
+    "^.+\.(js|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+    "^.+\.svg$": "<rootDir>/svg-transform.js",
+
+  },
+  moduleNameMapper: {
+    "\.(css|less|sass|scss)$": "identity-obj-proxy" // 有使用 sass 需求的同学可以把正则换成 ^\.(css|less|sass|scss)$
+  }
+
 };
